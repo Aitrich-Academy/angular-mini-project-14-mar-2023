@@ -1,0 +1,16 @@
+.navbar{
+    background-color:#4199d8;
+}
+.navbar-nav{
+      padding-left: 250px;
+}
+.nav-item{
+    padding-left: 50px;
+}
+.nav-link{
+    font-size: 18px;
+    color: aliceblue;
+}
+.nav-link h2{
+   color: white;
+}
