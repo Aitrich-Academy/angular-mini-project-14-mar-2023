@@ -1,0 +1,21 @@
+.about{
+    background-color: #D1E3F8;
+    height: 400px;
+  width:100%;
+
+}
+
+
+.service{
+  background-color: #9ED1F7;
+  height: 400px;
+  width:100%;
+ 
+}
+
+.btn {  width: 207px;
+    height: 62px;
+    position: relative;
+    left: 350px;
+    top: 178px;
+}
