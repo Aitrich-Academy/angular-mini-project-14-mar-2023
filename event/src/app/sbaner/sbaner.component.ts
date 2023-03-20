@@ -16,19 +16,27 @@ export class SbanerComponent implements OnInit {
   events:Events[]=[
 
 {
- name:"event1",
- image:'assets/image/event22',
+ name:"Musical fest2023",
+ image:'./assets/images/event55.jpg' ,
  venue:"kochi",
- des: "it is very informative session",
+ des: "It is very entertainerd session for you leading top brands are performing",
  kind:"seminar",
 
 },
 
 {
-  name:"event2",
-  image:'assets/image/event22',
+  name:"Debate",
+  image:"assets/images/event33.jpg",
   venue:"tvm",
-  des: "it is very enternained session",
+  des: "It is very  informative session.. hou can convey your thoughts",
+  kind:"musical",
+ 
+ },
+ {
+  name:"Seminar",
+  image:'assets/images/event22.jpg',
+  venue:"Kozhikode",
+  des: "It is very informative session.. famous mathematician leads this seminar",
   kind:"musical",
  
  },
