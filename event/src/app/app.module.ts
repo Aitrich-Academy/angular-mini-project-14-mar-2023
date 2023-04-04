@@ -10,6 +10,10 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { EventsComponent } from './events/events.component';
+import { PageventComponent } from './pagevent/pagevent.component';
+import { ContactComponent } from './contact/contact.component';
+import { SeemoreComponent } from './seemore/seemore.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { EventsComponent } from './events/events.component';
     FooterComponent,
     AboutComponent,
     HomeComponent,
-    EventsComponent
+    EventsComponent,
+    PageventComponent,
+    ContactComponent,
+    SeemoreComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,

@@ -7,7 +7,8 @@ export class Events
         name:string;
         venue:string;
         des:string;
-        kind:string
-        
+        kind:any;
+        desdetail:string;
+        dat:Date;
        
     }
