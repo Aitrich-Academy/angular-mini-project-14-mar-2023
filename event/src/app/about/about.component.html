@@ -1,10 +1,10 @@
-<app-header></app-header>
+<!-- <app-header></app-header> -->
 <div class="container-fluid about">
     <div class="row ">
         <div class="col-md-4">
-    <img src="./assets/images/Event5.jpg" width="400px" height="400px">
+    <img src="./assets/images/Event5.jpg" width="400px" height="400px" class="abimg">
 </div>
-<div class="col-md-8">
+ <div class="col-md-8 aboutus">
     <h2>About Us</h2>
     <p>our customers are our king.we provide good service.when an unknown printer took a galley of type and scrambled it to make a
          type specimen book. 
@@ -18,13 +18,103 @@
 </div>
 </div>
 </div>
-<div class="container-fluid service">
-<div class="row">
+ <div class="container-fluid service">
+    <div class="container"> 
+ <div class="row">
     <div class="col-md-6">
-        <button class="btn btn-primary">Service</button>
+       <img src="./assets/images/event55.jpg " class="img1" width="400px" height="300px"> 
+       <button type="button" class="btn btn-primary btns" data-bs-toggle="modal" data-bs-target="#exampleModal">Service</button>
+      
+
+  
+  <!-- Modal -->
+   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <table class="table table-striped">
+          
+            <tbody>
+              <tr>
+                <th scope="row">Event management</th>
+               
+              </tr>
+              <tr>
+                <th scope="row">Program cordination</th>
+               
+              </tr>
+              <tr>
+                <th scope="row">Slot booking</th>
+             </tr>
+              </tbody>
+          </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
     </div>
-    <div class="col-md-6"><button class="btn btn-primary">Products</button></div>
-</div>
+  </div>
+
+
+    </div>
+    <div class="col-md-6">
+        <img src="./assets/images/event6.jpg " class="img1" width="400px" height="300px"> 
+        <button type="button" class="btn btn-primary btns" data-bs-toggle="modal" data-bs-target="#exampleModal1">Products</button>
+     </div>
+     <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel1">We conduct</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            
+            <table class="table table-striped">
+             
+              <tbody>
+                <tr>
+                  <th scope="row">Musical Events</th>
+                 
+                </tr>
+                <tr>
+                  <th scope="row">Conference</th>
+                 
+                </tr>
+                <tr>
+                  <th scope="row">Seminar</th>
+               </tr>
+
+               <tr>
+                <th scope="row">Workshop</th>
+             </tr>
+
+             <tr>
+              <th scope="row">Debate</th>
+           </tr>
+                </tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+
+
+
+
 
 </div>
-<app-footer></app-footer>
+</div> 
+ </div> 
+ <app-footer></app-footer> 

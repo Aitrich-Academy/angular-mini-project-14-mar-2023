@@ -4,8 +4,14 @@
   width:100%;
 
 }
+.aboutus{
+  height: auto;
+  margin-top: 70px;
 
-
+}
+.aboutus h2{
+  margin-top: 20px;
+}
 .service{
   background-color: #9ED1F7;
   height: 400px;
@@ -13,9 +19,62 @@
  
 }
 
-.btn {  width: 207px;
+/* .btn {  width: 207px;
     height: 62px;
     position: relative;
     left: 350px;
     top: 178px;
+} */
+.img1{
+  position:relative;
+    top: 71px;
+    left: 161px;
+}
+
+.btns{ width: 207px;
+  height: 62px;
+  position: relative;
+  left: -132px;
+  top: 70px;
+  background-color: #07169b;
+
+}
+
+@media only screen and (max-width:768px) 
+{
+
+  .about{
+    background-color: #D1E3F8;
+    height:1200px;
+    width:100%;
+
+}
+  /* .aboutus{
+    height:1200px;
+    width:768px;
+  } */
+.abimg{
+  width:100%;
+}
+ .img1{
+  width:300px;
+  left: 0px;
+ }
+
+ 
+.btns{ width:180px;
+  height: 60px;
+  position: relative;
+  left: 50px;
+  top: -120px;
+  background-color: #07169b;
+
+}
+.service{
+  background-color: #9ED1F7;
+  height:900px;
+  width:100%;
+ 
+}
+
 }
